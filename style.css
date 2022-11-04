@@ -104,16 +104,50 @@ header .icon a:hover{
 }
 .btn{
     background: 20wh 10wh;
-    background-color: #e0480b;
-    font-size: 15px;
-    color: black;
+    background-color: rgb(25, 56, 13);
+    font-size: 25px;
+    font-weight: 30px;
+    color: white;
     border-radius: 20px;
 }
 
+section.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    height: 90px;
+    width: 100%;
+    font-size: 25px;
+}
 
+.order-addbtn{
 
+    color: white;
+    background-color: #8f541e;
 
+}
+.pic{
+    height: 250px;
+    width: 350px;
+}
 
+.content{
+    flex: 1 1 40rem;
+    color: #0D1010;
+    font-size: 15px;
+    align-items: center;
+}
+
+.btnn{
+    background: #FDFEFE;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
 
 
 
